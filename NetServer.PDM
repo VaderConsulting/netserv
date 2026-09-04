@@ -1,0 +1,177 @@
+[Root]
+Most Recent Package=NetServer Setup Package 1
+
+
+[Package|Borg1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\Projects\VB Projects\NetServerEnum\Package
+
+[Package|Borg1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Borg1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Borg1|Files Found]
+
+[Package|Borg1|Files Released]
+
+[Package|Borg1|Missing Dependency Information]
+
+[Package|Borg1|Out-of-Date Dependency Information]
+
+[Package|Borg1|Files Added]
+
+[Package|Borg1|Files Removed]
+
+[Package|Borg1|Files In Project]
+F:\Projects\VB Projects\NetServerEnum\Borg.exe=Yes
+E:\WINNT\system32\MSVBVM60.DLL=Yes
+E:\WINNT\system32\OLEAUT32.DLL=Yes
+E:\WINNT\system32\OLEPRO32.DLL=Yes
+E:\WINNT\system32\ASYCFILT.DLL=Yes
+E:\WINNT\system32\STDOLE2.TLB=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Borg1|Configure Registry Files]
+Applicable=No
+
+[Package|Borg1|Configure Remote Servers]
+Applicable=No
+
+[Package|Borg1|Install Locations]
+F:\Projects\VB Projects\NetServerEnum\Borg.exe=$(AppPath)
+E:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Borg1|Configure Shared Files]
+Applicable=Yes
+F:\Projects\VB Projects\NetServerEnum\Borg.exe=No
+
+[Package|Borg1|Distribution]
+Type=single
+Size=
+Title=Microcomputing's Borg Assimilator
+
+[Package|Borg1|IconGroups]
+Group0=Microcomputing's Borg Assimilator
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Borg1|Microcomputing's Borg Assimilator]
+Icon1=Borg.exe
+Title1=Microcomputing's Borg Assimilator
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Borg1|Package]
+PackageFolder=F:\Projects\VB Projects\NetServerEnum\Package
+ProjectFolder=F:\Projects\VB Projects\NetServerEnum
+ServerSideCab=
+File1=F:\Projects\VB Projects\NetServerEnum\Package\setup.exe
+File2=F:\Projects\VB Projects\NetServerEnum\Package\Setup.Lst
+File3=F:\Projects\VB Projects\NetServerEnum\Package\Borg.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|NetServer Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\Projects\VB Projects\NetServerEnum\Package (2)
+
+[Package|NetServer Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|NetServer Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|NetServer Setup Package 1|Files Found]
+
+[Package|NetServer Setup Package 1|Files Released]
+
+[Package|NetServer Setup Package 1|Missing Dependency Information]
+
+[Package|NetServer Setup Package 1|Out-of-Date Dependency Information]
+E:\WINNT\system32\Comctl32.OCX=
+
+[Package|NetServer Setup Package 1|Files Added]
+
+[Package|NetServer Setup Package 1|Files Removed]
+
+[Package|NetServer Setup Package 1|Files In Project]
+F:\Projects\VB Projects\NetServerEnum\NetServ.exe=Yes
+E:\WINNT\system32\MSVBVM60.DLL=Yes
+E:\WINNT\system32\OLEAUT32.DLL=Yes
+E:\WINNT\system32\OLEPRO32.DLL=Yes
+E:\WINNT\system32\ASYCFILT.DLL=Yes
+E:\WINNT\system32\STDOLE2.TLB=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\WINNT\system32\Comctl32.OCX=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|NetServer Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|NetServer Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|NetServer Setup Package 1|Install Locations]
+F:\Projects\VB Projects\NetServerEnum\NetServ.exe=$(AppPath)
+E:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\Comctl32.OCX=$(WinSysPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|NetServer Setup Package 1|Configure Shared Files]
+Applicable=Yes
+F:\Projects\VB Projects\NetServerEnum\NetServ.exe=No
+
+[Package|NetServer Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Network Enumerator (Beta)
+
+[Package|NetServer Setup Package 1|IconGroups]
+Group0=Network Enumerator (Beta)
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|NetServer Setup Package 1|Network Enumerator (Beta)]
+Icon1=NetServ.exe
+Title1=Network Enumerator (Beta)
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|NetServer Setup Package 1|Package]
+PackageFolder=F:\Projects\VB Projects\NetServerEnum\Package (2)
+ProjectFolder=F:\Projects\VB Projects\NetServerEnum
+ServerSideCab=
+File1=F:\Projects\VB Projects\NetServerEnum\Package (2)\setup.exe
+File2=F:\Projects\VB Projects\NetServerEnum\Package (2)\Setup.Lst
+File3=F:\Projects\VB Projects\NetServerEnum\Package (2)\NetServ.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
