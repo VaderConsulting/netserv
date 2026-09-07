@@ -1,6 +1,6 @@
 # netserv
 
-VB6 working copy of `netserv` from Dave Robinson's OneDrive Historical Dev `VB` folder. Project title: Project1. Output: `NetServ.exe`. `VersionCompanyName`: Information Technology & Communication.
+Information Technology & Communication VB6 Network Enumerator (`NetServ.exe` / NetServer) that lists servers in a domain/workgroup by type via `NetServerEnum` (workstations, SQL, DCs, print, dial-in, AFP, etc.) and can send NetBIOS messages with `NetMessageBufferSend`. Open `NetServer.vbp` in the VB6 IDE.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
