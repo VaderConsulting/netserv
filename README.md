@@ -23,7 +23,7 @@ Open the `.vbp` in Visual Basic 6.0 IDE:
 
 ## Attribution and provenance
 
-Working copy from Dave Robinson's OneDrive Historical Dev folder `VB/netserv`.
+Working copy from my Historical Dev folder `VB/netserv`.
 Company names in `.vbp` files: Information Technology & Communication.
 
 ## License
